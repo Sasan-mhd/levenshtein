@@ -34,6 +34,7 @@ public class Main {
                             throw new RuntimeException(ex);
                         }
                     });
+            System.out.println("sorted-wordlist-10000.txt is created !");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
